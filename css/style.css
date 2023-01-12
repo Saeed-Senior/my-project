@@ -1,0 +1,137 @@
+.wrapper {
+  height: 100vh;
+}
+
+.wolf {
+  max-width: 40px;
+}
+
+.full-screen {
+  height: 100vh;
+  background: url(../img/n.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.full-screen__content {
+  color: white;
+  position: relative;
+  top: 40%;
+  max-width: 320px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main-title {
+  font-size: 70px;
+  letter-spacing: 15px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 20px #000;
+}
+@media (max-width: 1200px) {
+  .main-title {
+    font-size: calc(30px + 40 * (100vw - 320px) / 880);
+  }
+}
+
+.main-text {
+  margin-top: -10px;
+  font-size: 20px;
+  text-shadow: 1px 1px 5px #000;
+}
+
+.first {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 0;
+  text-align: center;
+  color: white;
+}
+
+.first__text {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  margin: 0 20px;
+}
+.card img {
+  width: 100%;
+  height: 100%;
+}
+
+.two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0;
+  color: white;
+  text-align: center;
+}
+
+.two__text {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.videooo {
+  width: 100%;
+  height: 500px;
+}
+
+.video__inner {
+  width: 100%;
+}
+
+.citate {
+  color: white;
+  text-align: center;
+  padding: 70px 0;
+}
+.citate h2 {
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+
+.citate__image {
+  max-width: 150px;
+}
+
+@media (max-width: 767px) {
+  .container__citate {
+    display: none;
+  }
+}
+.container__citate div {
+  padding: 20px;
+}
+
+@media (min-width: 767px) {
+  .inner__citate {
+    display: none;
+  }
+}
+
+.footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #111;
+}
+.footer a {
+  color: white;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+}/*# sourceMappingURL=style.css.map */
